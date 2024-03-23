@@ -1,0 +1,295 @@
+*, after, *,before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+header img{
+    width: 132px;
+    height: 41.9px;
+    object-fit: contain;
+}
+.width{
+    width: 100%;
+    max-width: 1170px;
+   
+    margin-right: auto;
+    margin-left: auto;
+}
+header .width {
+    height: 79.97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+header  a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 20px 17px;
+    
+}
+header  a:hover{
+color: #1ed760;
+
+}
+header li{
+    list-style: none;
+}
+.nav span{
+    margin-left: 1rem;
+}
+h1{
+    font-size: 40px;
+}
+.premium{
+    background-color: rgb(161, 36, 139);
+}
+.premium .width{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pre-left{
+    display: flex;
+    flex-direction: column;
+   
+    margin-right: 32px;
+    padding-top: 72px;
+    padding-bottom: 40px;
+    color: white;
+}
+.pre-left p{
+    margin-top: 30px;
+    font-size: 24px;
+}
+.prelink{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.prelink a{
+    text-decoration: none;
+    color: white;
+}
+.prebtn{
+    display: inline-block;
+    background-color: black;
+    padding: 8px 32px;
+    border-radius: 30px;
+}
+.prebtn1{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 8px 32px;
+    border-radius: 30px;
+    margin-left: 1rem;
+
+}
+.prebtn1:hover{
+    scale: 1.06;
+    background-color:  rgb(143, 33, 123);
+}
+.prebtn:hover{
+    scale: 1.06;
+}
+.pre-left span{
+    margin-top: 40px;
+    font-size: 12px;
+    max-width: 708px;
+} 
+.pre-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.download{
+   
+    background-color:rgb(248, 248, 248);
+
+}
+.download .width{
+    padding: 72px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.download p{
+    margin-top: 30px;
+    font-size: 24px;
+}
+.download-atag{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 6px;
+}
+.download-atag a {
+    width: 135px;
+    margin-right: 6px;
+    height: 40px;
+}
+.download span{
+    margin-top: 40px;
+    font-size: 12px;
+    max-width: 630px;
+    text-align: center;
+}
+.download span a{
+  
+    color: black;
+
+}
+.feature{
+    background-color: #fff;
+}
+.feature .width{
+    padding: 75px 15px;
+}
+.feature .feature-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    text-align: center;
+   
+    
+
+
+}
+.feature h1{
+    text-align: center;
+    margin-bottom: 72px;
+}
+.feature img{
+    height: 141px;
+    margin-bottom: 40px;
+    margin-right: 71.500px;
+    margin-left: 71.500px;
+}
+.feature-mainpara{
+    margin-bottom: 10px;
+    font-size: 21px;
+    margin-top: 16px;
+}
+.feature-secpara{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.threeplan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+    
+}
+.plan .width h1 {
+   text-align: center;
+}
+.validity{
+    background-color: #2E77D0;
+    padding: 4px 8px;
+    width: 97px ;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.plan{
+    background-color: #f8f8f8;;
+}
+.plan .width{
+    padding: 75px 15px;
+}
+.plan li{
+    list-style: none;
+}
+.plan img{
+    height: 24px;
+    padding-right: 10px;
+}
+.plan ul li{
+    display: flex;
+    flex-direction: row;
+    
+}
+.plan ul{
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+.plan ul li p{
+    line-height: 21px;
+}
+.plan-one{
+    width: 364px;
+   
+    box-shadow: 0 0 10px 2px #b4b4b4;
+    border-radius: 8px;
+}
+.threeplantop{
+ 
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+   
+}
+.plan h3{
+    font-size: 24px;
+}
+.subhead{
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 16px;
+
+}
+.acc-count{
+    margin-bottom: 20px;
+}
+.startbtn{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    width: 338.9px;
+    height: 54px;
+    font-size: 16px;
+    padding: 8px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    text-decoration: none;
+}
+.startbtn-div{
+    padding: 0px 16px;
+}
+.planspandiv{
+    padding-top: 4px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+.planspandiv span{
+    margin-top: 12px;
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}
+.planspandiv span a{
+
+  color: rgb(83, 83, 83);
+}
